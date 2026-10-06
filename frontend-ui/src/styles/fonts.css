@@ -1,0 +1,20 @@
+@font-face {
+    font-family: 'Montserrant-ExtraBold';
+    src: url('../assets/fonts/Montserrat-ExtraBold.ttf');
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Montserrant-SemiBold';
+    src: url('../assets/fonts/Montserrat-SemiBold.ttf');
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Montserrant-Bold';
+    src: url('../assets/fonts/Montserrat-Bold.ttf');
+    font-style: normal;
+    font-display: swap;
+}
