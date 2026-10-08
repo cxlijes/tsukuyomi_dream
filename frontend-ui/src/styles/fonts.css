@@ -18,3 +18,24 @@
     font-style: normal;
     font-display: swap;
 }
+
+@font-face {
+    font-family: 'AstrumScriptCyrillic';
+    src: url('../assets/fonts/AstrumScriptCyrillic_Light.ttf');
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Rubik-Bold';
+    src: url('../assets/fonts/Rubik-Bold.ttf');
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Rubik-Light';
+    src: url('../assets/fonts/Rubik-Light.ttf');
+    font-style: normal;
+    font-display: swap;
+}

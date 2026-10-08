@@ -7,9 +7,13 @@
 }
 
 .welcome_pg {
-    background-image: url("../assets/images/home/hero-bg.jpg");
-    background-position: center bottom;
+    position: relative;
+    overflow: hidden;
     height: 720px;
+    background-image: url("../assets/images/home/hero-bg.jpg");
+    background-size: cover;
+    background-position: center bottom;
+    background-repeat: no-repeat;
 }
 
 .header {
@@ -97,3 +101,47 @@
     border-bottom: 1px solid hsla(23, 61%, 86%, 0.2);
     padding: 23px 0;
 }
+
+.text_column {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 1183px;
+    margin: 0 auto;
+    padding: 160px 0 0 0;
+}
+
+.roman_text {
+    font-size: 55px;
+    font-family: 'AstrumScriptCyrillic', sans-serif, Arial;
+    color: #de4f1b;
+}
+
+.main_text {
+    font-size: 57px;
+    font-family: 'Rubik-Bold', sans-serif, Arial;
+    color: #f1d6c6;
+    padding: 20px 0;
+}
+
+.desc_text {
+    font-size: 22px;
+    font-family: 'Rubik-Light', sans-serif, Arial;
+    color: #f1d6c6;
+    padding: 0 0 20px 0;
+}
+
+.btn_book {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 152px;
+    height: 45px;
+    background-color: #ff8d29;
+    color: #ffffff;
+    border-radius: 5px;
+    font-family: 'Montserrant-Bold', sans-serif, Arial;
+    font-size: 13px;
+}
+
