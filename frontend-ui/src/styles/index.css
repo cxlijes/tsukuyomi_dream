@@ -209,7 +209,10 @@ body {
     background-color: #ffffff;
     width: 286px;
     height: 539px;
-    padding: 48px 40px 20px;
+    padding: 48px 40px 30px;
+    position: relative;
+    overflow: hidden;
+    isolation: isolate;
 }
 
 .item_icon {
@@ -236,4 +239,16 @@ body {
     padding: 44px 0 0;
     flex-grow: 1; 
     text-align: center;
+}
+
+.item_case::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 100%;
+    background-color: #FF9D2E;
+    clip-path: polygon(0 81%, 100% 70%, 100% 100%, 0 100%);
+    z-index: -1;
 }
