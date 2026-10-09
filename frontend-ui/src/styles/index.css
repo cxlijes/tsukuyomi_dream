@@ -205,12 +205,11 @@ body {
 .item_case {
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
     background-color: #ffffff;
     width: 286px;
     height: 539px;
-    padding: 0 48px;
+    padding: 48px 40px 20px;
 }
 
 .item_icon {
@@ -221,6 +220,8 @@ body {
 .item_image {
     height: 186px;
     width: 188px;
+    margin-top: auto;
+    flex-shrink: 0;   
 }
 
 .item_title {
@@ -232,7 +233,7 @@ body {
 .item_description {
     color: #a2a2a2;
     font-family: 'Montserrant-Medium', sans-serif, Arial;
-    padding: 44px 0 20px 0;
+    padding: 44px 0 0;
+    flex-grow: 1; 
+    text-align: center;
 }
-
-
