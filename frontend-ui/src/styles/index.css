@@ -213,11 +213,13 @@ body {
     position: relative;
     overflow: hidden;
     isolation: isolate;
+    z-index: 1; 
 }
 
 .item_icon {
     height: 75px;
     width: 90px;
+    transition: filter 0.25s ease;
 }
 
 .item_image {
@@ -251,4 +253,24 @@ body {
     background-color: #FF9D2E;
     clip-path: polygon(0 81%, 100% 70%, 100% 100%, 0 100%);
     z-index: -1;
+    clip-path: polygon(0 81%, 100% 70%, 100% 100%, 0 100%);
+    transition: clip-path 0.25s ease; 
+}
+
+.item_case:hover::before {
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+}
+
+.item_title,
+.item_description {
+    transition: color 0.25s ease;
+}
+
+.item_case:hover .item_title,
+.item_case:hover .item_description {
+    color: #ffffff;
+}
+
+.item_case:hover .item_icon {
+    filter: brightness(0) invert(1);
 }
