@@ -188,6 +188,28 @@
     display: flex;
     flex-direction: row;
     gap: 12px;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    padding-bottom: 40px; 
+}
+
+.positions::-webkit-scrollbar {
+    height: 12px;
+}
+
+.positions::-webkit-scrollbar-button {
+    width: calc(25% - 40px);
+}
+
+.positions::-webkit-scrollbar-track {
+    outline: 2px solid #ff8d29;
+    border-radius: 50px;
+}
+
+.positions::-webkit-scrollbar-thumb {
+    background-color: #ff8d29;
+    border: 3px solid #f9f6f1;
+    border-radius: 50px;
 }
 
 .popular_positions {
@@ -214,6 +236,8 @@ body {
     overflow: hidden;
     isolation: isolate;
     z-index: 1; 
+    flex-shrink: 0;
+    scroll-snap-align: start;
 }
 
 .item_icon {
