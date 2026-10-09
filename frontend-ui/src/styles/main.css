@@ -4,6 +4,10 @@ a {
     text-decoration: none;
 }
 
+.body {
+    background-color: #f9f6f1;
+}
+
 .container {
     display: grid;
     grid-template-columns: 1fr;
