@@ -20,6 +20,13 @@
 }
 
 @font-face {
+    font-family: 'Montserrant-Medium';
+    src: url('../assets/fonts/Montserrat-Medium.ttf');
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
     font-family: 'AstrumScriptCyrillic';
     src: url('../assets/fonts/AstrumScriptCyrillic_Light.ttf');
     font-style: normal;

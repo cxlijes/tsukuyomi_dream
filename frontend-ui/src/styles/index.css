@@ -183,3 +183,56 @@
     position: relative;
     z-index: 3;
 }
+
+.positions {
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+}
+
+.popular_positions {
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    width: 1180px;
+    height: 840px;
+}
+
+body {
+    background-color: #f9f6f1;
+}
+
+.item_case {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+    width: 286px;
+    height: 539px;
+    padding: 0 48px;
+}
+
+.item_icon {
+    height: 75px;
+    width: 90px;
+}
+
+.item_image {
+    height: 186px;
+    width: 188px;
+}
+
+.item_title {
+    color: #000000;
+    font-family: 'Montserrant-ExtraBold', sans-serif, Arial;
+    padding: 18px 0 0 0;
+}
+
+.item_description {
+    color: #a2a2a2;
+    font-family: 'Montserrant-Medium', sans-serif, Arial;
+    padding: 44px 0 20px 0;
+}
+
+
