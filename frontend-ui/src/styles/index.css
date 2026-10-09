@@ -190,7 +190,8 @@
     gap: 12px;
     overflow-x: auto;
     scroll-snap-type: x mandatory;
-    padding-bottom: 40px; 
+    padding-bottom: 40px;
+    max-width: 100%; 
 }
 
 .positions::-webkit-scrollbar {
@@ -218,6 +219,7 @@
     margin: 0 auto;
     width: 1180px;
     height: 840px;
+    justify-content: center;
 }
 
 body {
