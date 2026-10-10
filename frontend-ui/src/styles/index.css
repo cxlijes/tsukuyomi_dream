@@ -300,3 +300,7 @@ body {
 .item_case:hover .item_icon {
     filter: brightness(0) invert(1);
 }
+
+.shape {
+    width: 1920px;
+}
