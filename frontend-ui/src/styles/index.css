@@ -381,7 +381,7 @@ body {
 }
 
 .popular_dishes {
-    height: 1500px;
+    height: 1600px;
 }
 
 .dishes_info {
@@ -437,4 +437,92 @@ body {
 
 .dishes_tag_filter:active {
     transform: scale(0.97);
+}
+
+.dishes_tag_menu {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 30px;
+    width: 1176px;
+    height: 1070px;
+    margin: 0 auto;
+}
+
+.dishes_tag_menu_item {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 520px;
+    width: 372px;
+    background-color: #ffffff;
+    border-radius: 15px;
+    padding: 41px;
+    font-family: 'Montserrant-Bold', sans-serif, Arial;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+}
+
+.dishes_tag_menu_image {
+    margin: 0 auto;
+    height: 270px;
+    width: 270px;
+}
+
+.dishes_tag_title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.star {
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    background: #ff9a2e;
+    clip-path: polygon(
+        50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%,
+        50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%
+    );
+}
+
+.dishes_tag_price {
+    display: flex;
+    gap: 7px;
+    font-family: 'Montserrant-ExtraBold', sans-serif, Arial;
+    font-size: 15px;
+}
+
+.discount {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 23px;
+    width: 57px;
+    background-color: #f42f25;
+    color: #ffffff;
+    font-size: 12px;
+    border-radius: 5px;
+}
+
+.dishes_tag_title_title {
+    color: #a2a2a2;
+    font-size: 15px;
+}
+
+.dishes_tag_description {
+    font-size: 21px;
+}
+
+.dishes_tag_price_title {
+    color: #f42f25;
+}
+
+.dishes_tag_price_wo_discount {
+    color: #ff9a2e;
+}
+
+.dishes_tag_price_w_discount {
+    color: #a2a2a2;
+    text-decoration: line-through 1px;
+    font-family: 'Montserrant-Bold', sans-serif, Arial;
 }
