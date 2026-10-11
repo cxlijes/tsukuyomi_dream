@@ -552,3 +552,7 @@ body {
     height: 270px;
     width: auto;
 }
+
+.mirrored {
+  transform: scaleX(-1);
+}
