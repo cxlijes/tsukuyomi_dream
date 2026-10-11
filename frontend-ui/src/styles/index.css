@@ -444,9 +444,28 @@ body {
     flex-direction: row;
     flex-wrap: wrap;
     gap: 30px;
-    width: 1176px;
-    height: 1070px;
+    width: 1240px;
+    height: 1090px;
     margin: 0 auto;
+    padding: 10px 20px 10px 32px;
+    overflow-y: auto;
+    scrollbar-gutter: stable;
+    scroll-snap-type: y mandatory;
+}
+
+.dishes_tag_menu::-webkit-scrollbar {
+    width: 12px;
+}
+
+.dishes_tag_menu::-webkit-scrollbar-track {
+    outline: 2px solid #ff8d29;
+    border-radius: 50px;
+}
+
+.dishes_tag_menu::-webkit-scrollbar-thumb {
+    background-color: #ff8d29;
+    border: 3px solid #f9f6f1;
+    border-radius: 50px;
 }
 
 .dishes_tag_menu_item {
@@ -460,6 +479,8 @@ body {
     padding: 41px;
     font-family: 'Montserrant-Bold', sans-serif, Arial;
     box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+    scroll-snap-align: start;
+    flex-shrink: 0;
 }
 
 .dishes_tag_menu_image {
