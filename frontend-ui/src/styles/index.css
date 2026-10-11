@@ -302,5 +302,46 @@ body {
 }
 
 .shape {
-    width: 1920px;
+    width: 100%;
+    display: flex;
+}
+
+.best_rest_info {
+    display: flex;
+    flex-direction: row;
+    padding: 100px 390px;
+    gap: 60px;
+    height: 720px;
+    background-color: #ffffff;
+}
+
+.best_rest_img {
+    width: 440px;
+    height: 440px;
+}
+
+.best_rest_title {
+    color: #000000;
+    font-family: 'Montserrant-ExtraBold', sans-serif, Arial;
+    font-size: 38px;
+}
+
+.org {
+    color:#ff9d2e;
+}
+
+.best_rest_description {
+    color: #a2a2a2;
+    font-family: 'Montserrant-Medium', sans-serif, Arial;
+    font-size: 14px;
+    padding: 30px 90px 30px 5px;
+}
+
+.best_rest_info_text {
+    display: flex;
+    flex-direction: column;
+}
+
+.best_rest_list_element_title {
+    
 }
