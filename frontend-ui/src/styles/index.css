@@ -309,7 +309,8 @@ body {
 .best_rest_info {
     display: flex;
     flex-direction: row;
-    padding: 100px 390px;
+    align-items: center;
+    padding: 0 390px;
     gap: 60px;
     height: 720px;
     background-color: #ffffff;
@@ -334,7 +335,7 @@ body {
     color: #a2a2a2;
     font-family: 'Montserrant-Medium', sans-serif, Arial;
     font-size: 14px;
-    padding: 30px 90px 30px 5px;
+    padding: 20px 90px 20px 5px;
 }
 
 .best_rest_info_text {
@@ -343,5 +344,42 @@ body {
 }
 
 .best_rest_list_element_title {
-    
+    color: #000000;
+    font-family: 'Montserrant-Bold', sans-serif, Arial;
+    font-size: 15px;
+}
+
+.best_rest_list_element {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 8px;
+}
+
+.best_rest_list {
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
+    padding: 0 0 34px 0;
+}
+
+.order_btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+    font-family: 'Montserrant-Bold', sans-serif, Arial;
+    font-size: 14px;
+    background-color: #ff9d2e;
+    border-radius: 5px;
+    height: 45px;
+    width: 152px;
+}
+
+.reverse {
+    rotate: 180deg;
+}
+
+.popular_dishes {
+    height: 1500px;
 }
