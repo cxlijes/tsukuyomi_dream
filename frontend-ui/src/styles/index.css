@@ -390,13 +390,7 @@ body {
     align-items: center;
     padding: 130px 0 0 0;  
     margin: 0 auto;  
-    width: 418px;
-}
-
-.dishes_info_header {
-    color: #f42f25;
-    font-family: 'Montserrant-Bold', sans-serif, Arial;
-    font-size: 15px;
+    width: 500px;
 }
 
 .dishes_info_title {
@@ -410,4 +404,37 @@ body {
     color: #a2a2a2;
     font-family: 'Montserrant-Medium', sans-serif, Arial;
     font-size: 15px;
+    padding: 40px 0 0 0;
+}
+
+.dishes_tag_list {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 12px;
+    padding: 40px 0;
+}
+
+.dishes_tag_filter {
+    border: none;
+    color: #000000;
+    background-color: #ffffff;
+    font-family: 'Montserrant-Bold', sans-serif, Arial;
+    font-size: 15px;
+    cursor: pointer;
+    padding: 14px 17px;
+    border-radius: 15px;
+}
+
+.dishes_tag_filter:hover {
+    background: #fbecdb;
+}
+
+.dishes_tag_filter.is-active {
+    background: #ff9a2e;
+    color: #ffffff;
+}
+
+.dishes_tag_filter:active {
+    transform: scale(0.97);
 }
